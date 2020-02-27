@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
-import { render } from '@ember/test-helpers';
+import { render, fillIn, find } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
 module('Integration | Component | login-form', function(hooks) {
@@ -20,5 +20,13 @@ module('Integration | Component | login-form', function(hooks) {
         "Sample McData"
       ]
     );
+
+    let button = find('input[type="submit"]');
+
+    assert.equal(button.disabled, true);
+
+    await fillIn('select', '1');
+
+    assert.equal(button.disabled, false);
   });
 });
