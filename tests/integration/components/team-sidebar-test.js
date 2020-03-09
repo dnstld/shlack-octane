@@ -10,7 +10,16 @@ module('Integration | Component | team-sidebar', function(hooks) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    await render(hbs`<TeamSidebar />`);
+    this.set('myTeam', {
+      name: '',
+      channels: [
+        {
+          name: 'general'
+        }
+      ]
+    });
+
+    await render(hbs`<TeamSidebar @team={{this.myTeam}} />`);
 
     assert.deepEqual(
       this.element.textContent
