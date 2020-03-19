@@ -222,7 +222,9 @@
       "channelId": "general",
       "userId": 1,
       "body": "awqwdqwqwdq",
-      "enrichedBody": ["awqwdqwqwdq"],
+      "enrichedBody": [
+        "awqwdqwqwdq"
+      ],
       "createdAt": 1555872270175,
       "id": 14
     },
@@ -569,6 +571,62 @@
       "userId": "1",
       "createdAt": 1556683077121,
       "id": 57
+    },
+    {
+      "teamId": "linkedin",
+      "channelId": "jobs",
+      "userId": "1",
+      "body": "hello",
+      "createdAt": 1584619291974,
+      "id": 58
+    },
+    {
+      "teamId": "linkedin",
+      "channelId": "jobs",
+      "userId": "1",
+      "body": "hello",
+      "createdAt": 1584619291975,
+      "id": 59
+    },
+    {
+      "teamId": "linkedin",
+      "channelId": "jobs",
+      "userId": "1",
+      "body": "hello again",
+      "createdAt": 1584619352665,
+      "id": 60
+    },
+    {
+      "teamId": "linkedin",
+      "channelId": "jobs",
+      "userId": "1",
+      "body": "hello again",
+      "createdAt": 1584619372141,
+      "id": 61
+    },
+    {
+      "teamId": "linkedin",
+      "channelId": "jobs",
+      "userId": "1",
+      "body": "hello again",
+      "createdAt": 1584619376705,
+      "id": 62
+    },
+    {
+      "teamId": "linkedin",
+      "channelId": "jobs",
+      "userId": "1",
+      "body": "hi there",
+      "createdAt": 1584619410401,
+      "id": 63
+    },
+    {
+      "teamId": "linkedin",
+      "channelId": "jobs",
+      "userId": "1",
+      "body": "hi",
+      "createdAt": 1584619448641,
+      "id": 64
     }
   ]
 }
