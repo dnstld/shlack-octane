@@ -1,5 +1,5 @@
 <!-- Channel -->
-<main class="flex-1 flex flex-col bg-white overflow-hidden channel">
+<ChatContainer @channel={{this.model}}>
   <ChannelHeader
     @title={{this.model.name}}
     @description={{this.model.description}} />
@@ -12,4 +12,4 @@
   </div>
 
   <ChannelFooter />
-</main>
+</ChatContainer>
