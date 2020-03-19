@@ -13,7 +13,7 @@ export default class ChatContainerComponent extends Component {
       channel: { id, teamId },
     } = this.args;
 
-    const resp = await fetch(`/api/teams/${teamId}/channels/${id}`);
+    const resp = await fetch(`/api/teams/${teamId}/channels/${id}/messages`);
     this.messages = await resp.json();
   }
 }
